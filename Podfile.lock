@@ -1,22 +1,26 @@
 PODS:
-  - GliaCoreDependency (1.0)
-  - GliaWidgets (0.9.0):
+  - GliaWidgets (0.7.1):
     - lottie-ios (= 3.2.3)
     - PureLayout (~> 3.1)
-    - SalemoveSDK (= 0.33.4)
+    - SalemoveSDK (= 0.33.1)
   - lottie-ios (3.2.3)
   - PureLayout (3.1.9)
   - ReactiveSwift (6.5.0-xcf)
-  - SalemoveSDK (0.33.4):
-    - GliaCoreDependency (= 1.0)
+  - SalemoveSDK (0.33.1):
     - ReactiveSwift (= 6.5.0-xcf)
+    - SocketIO (= 9.2.0-xcf)
+    - Starscream (= 3.1.1-xcf)
+    - SwiftPhoenixClient (= 1.2.1-xcf)
     - TwilioVoice (= 6.3.1)
     - WebRTC-lib (= 96.0.0)
+  - SocketIO (9.2.0-xcf)
+  - Starscream (3.1.1-xcf)
+  - SwiftPhoenixClient (1.2.1-xcf)
   - TwilioVoice (6.3.1)
   - WebRTC-lib (96.0.0)
 
 DEPENDENCIES:
-  - GliaWidgets (= 0.9.0)
+  - GliaWidgets (= 0.7.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -25,21 +29,25 @@ SPEC REPOS:
     - TwilioVoice
     - WebRTC-lib
   https://github.com/salemove/glia-ios-podspecs.git:
-    - GliaCoreDependency
     - GliaWidgets
     - ReactiveSwift
     - SalemoveSDK
+    - SocketIO
+    - Starscream
+    - SwiftPhoenixClient
 
 SPEC CHECKSUMS:
-  GliaCoreDependency: a6e1b7c32dbd697018990d9f62e89c5835479df9
-  GliaWidgets: 9c2d95ec544c0a451e4bfa72821112629c8b58ca
+  GliaWidgets: adf7521d5f260f77e00e4e702e91eb81b0202754
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
   PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
   ReactiveSwift: 377d0a5621761a57c61829541b2ee0b9fdcd98f2
-  SalemoveSDK: 561306fb67ad648412b7bc2528292e9df4cf3912
+  SalemoveSDK: f3d5264b0173b9651b195eeedc25392313d4cefd
+  SocketIO: 07583ad0005148194dcdfb89feda88b2180e1391
+  Starscream: 54f05f3e7aa58f5ad1d5b4339ab55784bc74a35f
+  SwiftPhoenixClient: 77dadbfee8eecd7a41cc8cccdd883dd0df093ddb
   TwilioVoice: 098a959181d4607921f5822d3c9f13043ea4075b
   WebRTC-lib: 508fe02efa0c1a3a8867082a77d24c9be5d29aeb
 
-PODFILE CHECKSUM: 4d7cdb345c8c1e37f0ccb76d71f4d12b6837c0c7
+PODFILE CHECKSUM: c1d01239b3cc724a09ee233ed6d7696992315827
 
 COCOAPODS: 1.11.3

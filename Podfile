@@ -4,6 +4,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'color-customization' do
   use_frameworks!
 
-  pod 'GliaWidgets', '0.9.0'
+  pod 'GliaWidgets', '0.7.1'
 
 end
