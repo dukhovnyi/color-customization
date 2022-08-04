@@ -1,6 +1,6 @@
 PODS:
   - GliaCoreDependency (1.0)
-  - GliaWidgets (0.9.2):
+  - GliaWidgets (0.9.3):
     - lottie-ios (= 3.2.3)
     - PureLayout (~> 3.1)
     - SalemoveSDK (= 0.34.2)
@@ -32,7 +32,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   GliaCoreDependency: a6e1b7c32dbd697018990d9f62e89c5835479df9
-  GliaWidgets: 1a9baf5fa9c3f8335785a3b80461a670f9936623
+  GliaWidgets: 56c62f41ca8dde22a3b59f10a215fdd6bbfe5df2
   lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
   PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
   ReactiveSwift: 377d0a5621761a57c61829541b2ee0b9fdcd98f2
